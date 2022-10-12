@@ -18,5 +18,7 @@ const secondoNumero = Number( prompt (`scrivi il secondo numero `))
  }else if (secondoNumero > primoNumero){
     console.log(secondoNumero);
 
+ }else{
+    console.log();
  }
 
