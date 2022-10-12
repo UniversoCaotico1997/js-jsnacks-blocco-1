@@ -15,10 +15,10 @@ const secondaParola = prompt(`scrivi la seconda parola`)
 // Il software stampa prima la parola più corta, poi la parola più lunga. 
 
 if (primaParola.length > secondaParola.length) {
-    console.log(`parola più lunga`,primaParola);
+    console.log(`la prima parola più lunga`,primaParola);
 
 } else if (secondaParola.length > primaParola.length) {
-    console.log(`parola più lunga`,secondaParola);
+    console.log(`la seconda parola più lunga`,secondaParola);
 
 }else{
     console.log();
