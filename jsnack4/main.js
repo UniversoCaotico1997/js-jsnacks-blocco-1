@@ -20,19 +20,48 @@ const listName = [
     `Topolino`
 ];
 
-// console.log(listName);
+// // console.log(listName);
 
-const nomeDaVisionare = prompt(`Scrivi il tuo nome`);
+// const nomeDaVisionare = prompt(`Scrivi il tuo nome`);
 
-// console.log(nomeDelPartecipante);
+// // console.log(nomeDelPartecipante);
 
-// creaimo un ciclo for 
+// // creaimo un ciclo for 
+
+// let isValid = false;
+
+// // Attravesro Array + ciclo visioniamo se la mail è presente nella lista 
+
+// for (let i = 0; i < listName.length; i++) { 
+//     const partecipante = listName [i]; 
+//     // console.log(partecipante);
+    
+//     // verifichiamo se il nome corrisponde 
+//     if (partecipante === nomeDaVisionare){ 
+//         // nome valido
+//         isValid = true;  
+//     } 
+    
+// } 
+
+// if (isValid) {
+//     console.log(`Puoi entrare`);
+// }else{
+//     console.log(`Non puoi entare`);
+// }
+
+
+///////////////////// 
+
+
+// ciclo while 
 
 let isValid = false;
 
-// Attravesro Array + ciclo visioniamo se la mail è presente nella lista 
+// // Attravesro Array + ciclo visioniamo se la mail è presente nella lista 
+let i = 0;
 
-for (let i = 0; i < listName.length; i++) { 
+while (i < listName.length) { 
     const partecipante = listName [i]; 
     // console.log(partecipante);
     
@@ -41,7 +70,8 @@ for (let i = 0; i < listName.length; i++) {
         // nome valido
         isValid = true;  
     } 
-    
+
+    i++
 } 
 
 if (isValid) {
@@ -49,3 +79,5 @@ if (isValid) {
 }else{
     console.log(`Non puoi entare`);
 }
+
+
